@@ -63,7 +63,40 @@ nav ul li a:hover {
 #principal {
     width: 710px;
     float: left;
+    margin-bottom: 20px;
 }
+/*Postagens*/
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+/*Fim Postagens*/
 /*Fim Conteúdo Principal*/
 
 /*Barra Lateral*/
@@ -71,6 +104,7 @@ aside {
     width: 350px;
     float: right;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#visita {/*o id #visita sem espaços em relação ao section "section#visita", diz que: visita
@@ -134,5 +168,19 @@ section#galeria img {
     margin-top: 3px;
 }
 /*Fim Galeria*/
-/*Fim Barra Lateral*
+/*Fim Barra Lateral*/
+/*Footer*/
+footer {
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../images/fundo-rodape.png) no-repeat center top;
+}
+
+footer>p a {
+    padding: 2px 10px;
+
+}
+/*Fim footer*/
+
 /*Fim Corpo do site*/
